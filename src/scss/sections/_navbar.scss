@@ -21,7 +21,7 @@ nav {
                 color: var(--theme-color);
                 transition: .3s ease-in-out;
                 cursor: pointer;
-                outline: 2px solid transparent;
+                outline: 2px dashed transparent;
                 &:hover {
                     fill : #64dad91a;
                 }
