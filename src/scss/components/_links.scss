@@ -1,0 +1,9 @@
+.link {
+    text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: var(--theme-color);
+  &:after {
+    content: "";
+}
+}
