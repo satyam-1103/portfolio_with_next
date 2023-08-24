@@ -1,10 +1,21 @@
 import Image from "next/image";
 import React from "react";
 import Profile from "@/assets/profile.jpg";
-
+import { motion } from "framer-motion";
 function About() {
   return (
-    <div className="about" id="about">
+    <motion.div
+      className="about"
+      id="about"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      variants={{
+        visible: { opacity: 1, y: -50 },
+        hidden: { opacity: 0, y: 0 },
+      }}
+    >
       <div className="title">
         <h2>About Me</h2>
       </div>
@@ -36,11 +47,11 @@ function About() {
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src={Profile} alt="photo" />
+            <Image src={Profile} alt="photo" fill />
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
