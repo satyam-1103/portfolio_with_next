@@ -37,12 +37,8 @@ function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut", delay: 1.35 }}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat
-        ut suscipit alias! Dolor eum ex ratione magni nobis est quaerat impedit
-        explicabo eius commodi.
-        <Link href="#" target="_blank" className="link">
-          Company
-        </Link>
+        Hello there, I am a web developer from India. I am passionate to work
+        and develop things for the web.
       </motion.p>
       <motion.div
         className="hero-button"
