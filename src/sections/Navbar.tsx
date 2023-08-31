@@ -116,7 +116,10 @@ const Navbar = () => {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="#" />
+            <Button
+              text="Resume"
+              link="https://docs.google.com/document/d/1zkF2vctjq28pP5J76IYUMfJBhdns-Qnq/edit?usp=sharing&ouid=103561001863362365235&rtpof=true&sd=true"
+            />
           </motion.div>
         </div>
       </div>

@@ -2,33 +2,49 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-import image from "@/assets/profile.jpg";
+
 import { motion } from "framer-motion";
 
 function Projects() {
   const projectsData = [
     {
-      image: image,
-      projectName: "NewsHub",
-      projectLink: "https://github.com/",
+      image: "/portfolio-cover.jpg",
+      projectName: "Personal Portfolio Website",
+      projectLink: "https://satyam-srivastava.netlify.app/",
       projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, beatae. Ducimus, laborum fugiat dolor nostrum ut labore in ipsa maiores consectetur.",
+        "Developed the personal portfolio website using HTML, CSS and Javascript.",
+      projectTech: ["HTML & CSS", "Javascript"],
+      projectExternalLinks: {
+        github: "https://github.com/satyam-1103/portfolio_",
+        externalLink: "https://satyam-srivastava.netlify.app/",
+      },
+    },
+
+    {
+      image: "/newsHub-cover.jpg",
+      projectName: "NewsHub",
+      projectLink: "https://github.com/satyam-1103/NewsHub",
+      projectDescription:
+        "NewsHub is an latest news fetching web application. It uses latest news using the newsAPI. It provides entertainment, business, and many more news.",
       projectTech: ["React", "Bootstrap", "NewsAPI"],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/satyam-1103/NewsHub",
+        externalLink: "https://github.com/satyam-1103/NewsHub",
       },
     },
     {
-      image: image,
+      image: "/finwise-cover.jpg",
       projectName: "Fin-wise",
-      projectLink: "https://github.com/",
+      projectLink:
+        "https://github.com/Gautam2113/Fin-Wise-Code_Crafters-IBM-Skill-build",
       projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, beatae. Ducimus, laborum fugiat dolor nostrum ut labore in ipsa maiores consectetur.",
+        "Fin-wise is an expense tracking website, it analyses the expenses of the user.",
       projectTech: ["HTML & CSS", "Javascript"],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github:
+          "https://github.com/Gautam2113/Fin-Wise-Code_Crafters-IBM-Skill-build",
+        externalLink:
+          "https://github.com/Gautam2113/Fin-Wise-Code_Crafters-IBM-Skill-build",
       },
     },
   ];
