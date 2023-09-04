@@ -45,7 +45,7 @@ function Hero() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <Button text="checkout out my course" link="#" />
+        <Button text="checkout out my course" link="#about" />
       </motion.div>
       <motion.div
         className="hero-image"

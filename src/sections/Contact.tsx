@@ -18,9 +18,7 @@ function Contact() {
       <h2 className="contact-title">What&apos; Next?</h2>
       <h2 className="contact-sub-title">Get In Touch</h2>
       <p className="contact-text">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat,
-        perspiciatis quisquam in minima repellendus ducimus delectus quasi harum
-        iure ratione.
+        Currently, I am looking for an opportunity. Let&apos; Contact.
       </p>
 
       <div className="contact-cta">

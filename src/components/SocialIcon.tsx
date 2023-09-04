@@ -7,12 +7,12 @@ const SocialIcon = () => {
     {
       name: "Github",
       icon: <FiGithub />,
-      link: "#",
+      link: "https://github.com/satyam-1103/",
     },
     {
       name: "Linkedin",
       icon: <FiLinkedin />,
-      link: "#",
+      link: "https://www.linkedin.com/in/satyamsrivastava1103/",
     },
   ];
   return (

@@ -34,6 +34,16 @@ function Experience() {
         "Improved the e-commerce website design on shopify",
       ],
     },
+    {
+      name: "Code Alpha",
+      role: "Front-end Web Developer Intern",
+      url: "#",
+      start: "August 2023",
+      end: "present",
+      shortDescription: [
+        "During the internship, I have worked on various tasks assigned by the Code Alpha",
+      ],
+    },
   ];
   return (
     <motion.div
