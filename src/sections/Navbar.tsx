@@ -118,7 +118,7 @@ const Navbar = () => {
           >
             <Button
               text="Resume"
-              link="https://drive.google.com/file/d/1kh0wOAhSbCVGJGYZkNmugmug93sF_zR8/view?usp=sharing"
+              link="https://drive.google.com/file/d/1rnTA7nTTyZWsgl00-IitXdzKmSrMlzmB/view?usp=sharing"
             />
           </motion.div>
         </div>
